@@ -11,7 +11,6 @@ var user_count = 0;
 //當新的使用者連接進來的時候
 io.on('connection', function(socket){
 
-
 	//新user
 	socket.on('add user',function(msg){
 		socket.username = msg;
